@@ -1,0 +1,27 @@
+site_name: Eunkyung's TIL
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - search.highlight
+
+nav:
+    - INDEX : index.md
+    - TIL : TIL.md
+    - PAGE : page.md
+    - BOOK : book.md
+    - LECTURE : lecture.md
+
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+
+plugins:
+  - search
